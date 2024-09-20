@@ -1,0 +1,72 @@
+Model: Decision Tree
+Remove Outliers: True
+Use PCA: True
+Best Params: {'model__max_depth': 10, 'model__min_samples_leaf': 10, 'model__min_samples_split': 2}
+Best Score (R²): 0.7023399269370352
+----------------------------------------
+Model: Decision Tree
+Remove Outliers: True
+Use PCA: False
+Best Params: {'model__max_depth': 10, 'model__min_samples_leaf': 10, 'model__min_samples_split': 2}
+Best Score (R²): 0.7819334065424223
+----------------------------------------
+Model: Decision Tree
+Remove Outliers: False
+Use PCA: True
+Best Params: {'model__max_depth': 10, 'model__min_samples_leaf': 10, 'model__min_samples_split': 2}
+Best Score (R²): 0.7047571286240373
+----------------------------------------
+Model: Decision Tree
+Remove Outliers: False
+Use PCA: False
+Best Params: {'model__max_depth': 10, 'model__min_samples_leaf': 10, 'model__min_samples_split': 2}
+Best Score (R²): 0.7890187782041388
+----------------------------------------
+Model: Random Forest
+Remove Outliers: True
+Use PCA: True
+Best Params: {'model__max_depth': 20, 'model__min_samples_leaf': 5, 'model__min_samples_split': 2, 'model__n_estimators': 50}
+Best Score (R²): 0.8029611095512943
+----------------------------------------
+Model: Random Forest
+Remove Outliers: True
+Use PCA: False
+Best Params: {'model__max_depth': 20, 'model__min_samples_leaf': 5, 'model__min_samples_split': 2, 'model__n_estimators': 50}
+Best Score (R²): 0.8535140532590552
+----------------------------------------
+Model: Random Forest
+Remove Outliers: False
+Use PCA: True
+Best Params: {'model__max_depth': 20, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 50}
+Best Score (R²): 0.8200581067061463
+----------------------------------------
+Model: Random Forest
+Remove Outliers: False
+Use PCA: False
+Best Params: {'model__max_depth': 20, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 50}
+Best Score (R²): 0.8640460476582993
+----------------------------------------
+Model: Extra Trees
+Remove Outliers: True
+Use PCA: True
+Best Params: {'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 50}
+Best Score (R²): 0.8119052893138686
+----------------------------------------
+Model: Extra Trees
+Remove Outliers: True
+Use PCA: False
+Best Params: {'model__max_depth': 20, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 50}
+Best Score (R²): 0.8623228122041819
+----------------------------------------
+Model: Extra Trees
+Remove Outliers: False
+Use PCA: True
+Best Params: {'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 50}
+Best Score (R²): 0.8284509434793501
+----------------------------------------
+Model: Extra Trees
+Remove Outliers: False
+Use PCA: False
+Best Params: {'model__max_depth': 20, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 50}
+Best Score (R²): 0.8809380268201213
+----------------------------------------
